@@ -17,6 +17,7 @@ if (isset($_POST['submit'])) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
+    
 
 <head>
     <meta charset="UTF-8">
@@ -38,9 +39,8 @@ if (isset($_POST['submit'])) {
     <!--  Custom Style CSS  -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-</head>
-
-<body class="pilling-page nill-dark" data-spy="scroll" data-target="#scrollspy" data-offset="1">
+    </head>
+    <body class="pilling-page nill-dark"  data-spy="scroll" data-target="#scrollspy" data-offset="1">
 
     <!--  Pre Loader  -->
     <div id="overlayer">
@@ -48,143 +48,144 @@ if (isset($_POST['submit'])) {
     </div>
 
 
-    <!-- Blog Single Modal -->
-    <div class="blog-single modal fade" id="blog-single" tabindex="-1" role="dialog" aria-labelledby="blogModalScrollable" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable" role="document">
-            <div class="modal-content bg-white">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="blogModalScrollable">Write Your Dreams</h5>
-                    <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <!--   Blog-single   Start -->
-                    <div class="pt-4 pb-5">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-10 offset-lg-1 blog">
-                                    <div class="rounded px-lg-5">
-                                        <div class="text-md-left">
-                                            <h4 class="mb-4">The best way to become a good web designer</h4>
-                                            <img src="assets/img/blog-single-01.jpg" alt="" class="img-fluid w-100 rounded">
-                                            <span class="d-inline-block py-4"> 1 April 2019
-                                                / By <span class="purple-color text-right"> John Doe. </span>
-                                            </span>
-                                            <p class="text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>
-                                            <div class="px-md-5 px-3 py-4 quotation">
-                                                <i class="base-color lni-quotation size-md"></i>
-                                                <h6 class="base-color font-italic mb-0">We Love Buna, lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula felis euismod semper.</h6>
+        <!-- Blog Single Modal -->
+        <div class="blog-single modal fade" id="blog-single" tabindex="-1" role="dialog" aria-labelledby="blogModalScrollable" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content bg-white">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="blogModalScrollable">Write Your Dreams</h5>
+                        <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!--   Blog-single   Start -->
+                        <div class="pt-4 pb-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-10 offset-lg-1 blog">
+                                        <div class="rounded px-lg-5">
+                                            <div class="text-md-left">
+                                                <h4 class="mb-4">The best way to become a good web designer</h4>
+                                                <img src="assets/img/blog-single-01.jpg" alt="" class="img-fluid w-100 rounded">
+                                                <span class="d-inline-block py-4"> 1 April 2019
+                                        / By <span class="purple-color text-right"> John Doe. </span>
+                                        </span>
+                                                <p class="text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>
+                                                <div class="px-md-5 px-3 py-4 quotation">
+                                                    <i class="base-color lni-quotation size-md"></i>
+                                                    <h6 class="base-color font-italic mb-0">We Love Buna, lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula felis euismod semper.</h6>
+                                                </div>
+                                                <p class="my-3 text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>
+                                                <ul class="list-unstyled mt-4 checkmark-list">
+                                                    <!-- Item-01 -->
+                                                    <li class="mb-2">
+                                                        <span class="text-muted ml-1">The purpose of lorem ipsum is to create</span>
+                                                    </li>
+                                                    <!-- Item-02 -->
+                                                    <li class="mb-2">
+                                                        <span class="text-muted ml-1">In particular, the garbled words of lorem ipsum</span>
+                                                    </li>
+                                                    <!-- Item-03 -->
+                                                    <li class="mb-2">
+                                                        <span class="text-muted ml-1">occasionally circumstances occur in which toil</span>
+                                                    </li>
+                                                </ul>
+
+                                                <!--Blog Reply-->
+                                                <div class="contact mt-4">
+                                                    <div class="contact-form">
+                                                        <h2 class="text-left mb-4">Leave a reply</h2>
+                                                        <form>
+                                                            <div class="row">
+                                                                <div class="col-lg-6 form-item">
+                                                                    <div class="form-group">
+                                                                        <input name="name" id="blog-name" type="text" class="form-control" placeholder="Your Name*" required>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6 form-item">
+                                                                    <div class="form-group">
+                                                                        <input name="email" id="blog-email" type="email" class="form-control" placeholder="Your Email*" required>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 form-item">
+                                                                    <div class="form-group">
+                                                                        <textarea name="comments" id="blog-comments" rows="4" class="form-control" placeholder="Your message..."></textarea>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-12 mt-4 text-left">
+                                                                    <button type="submit" class="pill-button" id="blog-submit-btn">Submit</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--   Blog-Single End  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Single Modal -->
+        <div class="portfolio-single modal fade" id="portfolio-single" tabindex="-1" role="dialog" aria-labelledby="portfolioModalScrollable" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content bg-white">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="portfolioModalScrollable">My Work</h5>
+                        <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="pt-4 pb-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-md-10 offset-md-1">
+                                        <div class="text-center">
+                                            <h2 class="text-dark mb-3">Single <span class="base-color"> Portfolio</span></h2>
+                                            <p class="text-muted max-width-450">In a professional context it often happens that private clients corder a publication to be made.</p>
+                                        </div>
+                                        <div class="row contact-info mt-5">
+                                            <div class="col-md-4">
+                                                <div class="text-center">
+                                                    <div>
+                                                        <h6>Created by:</h6>
+                                                        <p class="text-muted mb-0">John Doe</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 p-title-border mt-3 mt-md-0">
+                                                <div class="text-center">
+                                                    <div>
+                                                        <h6 class="contact_detail-title">Completed on:</h6>
+                                                        <p class="text-muted mb-0">September 30, 2019</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mt-3 mt-md-0">
+                                                <div class="text-center">
+                                                    <div>
+                                                        <h6>Skills:</h6>
+                                                        <p class="text-muted mb-0">HTML5 / PHP / CSS3</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mt-5">
+                                            <div class="portfolio-single-item">
+                                                <img src="assets/img/005.jpg" class="d-block w-100 rounded" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="text-md-left mt-5">
                                             <p class="my-3 text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>
-                                            <ul class="list-unstyled mt-4 checkmark-list">
-                                                <!-- Item-01 -->
-                                                <li class="mb-2">
-                                                    <span class="text-muted ml-1">The purpose of lorem ipsum is to create</span>
-                                                </li>
-                                                <!-- Item-02 -->
-                                                <li class="mb-2">
-                                                    <span class="text-muted ml-1">In particular, the garbled words of lorem ipsum</span>
-                                                </li>
-                                                <!-- Item-03 -->
-                                                <li class="mb-2">
-                                                    <span class="text-muted ml-1">occasionally circumstances occur in which toil</span>
-                                                </li>
-                                            </ul>
-
-                                            <!--Blog Reply-->
-                                            <div class="contact mt-4">
-                                                <div class="contact-form">
-                                                    <h2 class="text-left mb-4">Leave a reply</h2>
-                                                    <form method="post">
-                                                        <div class="row">
-                                                            <div class="col-lg-6 form-item">
-                                                                <div class="form-group">
-                                                                    <input name="name" id="blog-name" type="text" class="form-control" placeholder="Your Name*" required>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-6 form-item">
-                                                                <div class="form-group">
-                                                                    <input name="email" id="blog-email" type="email" class="form-control" placeholder="Your Email*" required>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-12 form-item">
-                                                                <div class="form-group">
-                                                                    <textarea name="comments" id="blog-comments" rows="4" class="form-control" placeholder="Your message..."></textarea>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-12 mt-4 text-left">
-                                                                <button type="submit" class="pill-button" id="blog-submit-btn">Submit</button>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
+                                            <p class="mt-3 mb-0 text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--   Blog-Single End  -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Single Modal -->
-    <div class="portfolio-single modal fade" id="portfolio-single" tabindex="-1" role="dialog" aria-labelledby="portfolioModalScrollable" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable" role="document">
-            <div class="modal-content bg-white">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="portfolioModalScrollable">My Work</h5>
-                    <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="pt-4 pb-5">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12 col-md-10 offset-md-1">
-                                    <div class="text-center">
-                                        <h2 class="text-dark mb-3">Single <span class="base-color"> Portfolio</span></h2>
-                                        <p class="text-muted max-width-450">In a professional context it often happens that private clients corder a publication to be made.</p>
-                                    </div>
-                                    <div class="row contact-info mt-5">
-                                        <div class="col-md-4">
-                                            <div class="text-center">
-                                                <div>
-                                                    <h6>Created by:</h6>
-                                                    <p class="text-muted mb-0">John Doe</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 p-title-border mt-3 mt-md-0">
-                                            <div class="text-center">
-                                                <div>
-                                                    <h6 class="contact_detail-title">Completed on:</h6>
-                                                    <p class="text-muted mb-0">September 30, 2019</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 mt-3 mt-md-0">
-                                            <div class="text-center">
-                                                <div>
-                                                    <h6>Skills:</h6>
-                                                    <p class="text-muted mb-0">HTML5 / PHP / CSS3</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="mt-5">
-                                        <div class="portfolio-single-item">
-                                            <img src="assets/img/005.jpg" class="d-block w-100 rounded" alt="...">
-                                        </div>
-                                    </div>
-                                    <div class="text-md-left mt-5">
-                                        <p class="my-3 text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>
-                                        <p class="mt-3 mb-0 text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>
                                     </div>
                                 </div>
                             </div>
@@ -193,7 +194,6 @@ if (isset($_POST['submit'])) {
                 </div>
             </div>
         </div>
-    </div>
 
     <!--  Page Pilling  Strat  -->
     <div id="pagepiling" class="pagepiling">
@@ -228,9 +228,9 @@ if (isset($_POST['submit'])) {
                             </ul>
                             <ul class="list-group contact-info text-left mb-0">
                                 <li class="list-group-item"><span>Contact Info :</span></li>
-                                <li class="list-group-item"><span><i class="lni-map-marker"></i> NY 10018, USA</span></li>
-                                <li class="list-group-item"><span><i class="lni-phone-handset"></i> +1 212-695-1962</span></li>
-                                <li class="list-group-item"><span><i class="lni-envelope"></i> nill@retrina.com</span></li>
+                                <li class="list-group-item"><span><i class="lni-map-marker"></i> Surat, India</span></li>
+                                <li class="list-group-item"><span><i class="lni-phone-handset"></i><a href="tel:+918153812212">+91 8153812212</a></span></li>
+                                <li class="list-group-item"><span><i class="lni-envelope"></i><a href="mailto:Niravlathiya212@gmail.com">Niravlathiya212@gmail.com</a></span></li>
                                 <li class="list-group-item"><span>Follow me :</span></li>
                                 <li class="list-group-item">
                                     <ul class="list-inline socails">
@@ -269,7 +269,7 @@ if (isset($_POST['submit'])) {
                         <div class="hero-content text-center">
                             <img src="assets/img/hero.jpg" alt="" class="rounded-circle img-thumbnail">
                             <h3 class="text-dark mb-0 mt-3">I'M Nirav Lathiya</h3>
-                            <h1 class="text-dark text-capitalize mb-3"><span class="base-color">A </span> <span class="element" data-elements="UI Designer.,Web Designer.,Web Developer."></span></h1>
+                            <h1 class="text-dark text-capitalize mb-3"><span class="base-color">A  </span> <span class="element" data-elements="UI Designer.,Web Designer.,Web Developer."></span></h1>
                             <div>
                                 <ul class="list-inline social-icon mt-2">
                                     <li class="list-inline-item"><a href="javascript:void(0);"><i class="lni-facebook-filled text-dark"></i></a></li>
@@ -536,7 +536,7 @@ if (isset($_POST['submit'])) {
                                         <p class="text-muted mb-0">Web development is the work involved in developing a web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web-based internet applications, electronic businesses, and social network services</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div>    
                         </div>
                     </div>
                 </div>
@@ -694,7 +694,7 @@ if (isset($_POST['submit'])) {
                             </div>
                             <div class="col-lg-12">
                                 <div class="text-left">
-                                    <h2 class="text-dark">My <span class="base-color">Clients</span></h2>
+                                    <h2 class="text-dark">My  <span class="base-color">Clients</span></h2>
                                     <p class="text-muted mt-1">What my clients say about me</p>
                                 </div>
                             </div>
@@ -709,7 +709,7 @@ if (isset($_POST['submit'])) {
                                             <img src="assets/img/client-04.png" alt="/" class="rounded-circle">
                                         </div>
                                         <h4 class="float-left mt-5">-Mark Den, <span class="font-weight-bold">Seo Manager</span></h4>
-                                    </div>
+                                    </div>                                        
                                 </div>
                             </div>
                         </div>
@@ -754,12 +754,12 @@ if (isset($_POST['submit'])) {
                                     <div class="row">
                                         <div class="col-lg-12 form-item">
                                             <div class="form-group">
-                                                <input name="name" id="name" type="text" class="form-control" placeholder="Your Name*" required>
+                                                <input name="name" id="name" type="text" class="form-control" placeholder="Your Name*" required >
                                             </div>
                                         </div>
                                         <div class="col-lg-12 form-item">
                                             <div class="form-group">
-                                                <input name="email" id="email" type="email" class="form-control" placeholder="Your Email*" required>
+                                                <input name="email" id="email" type="email" class="form-control" placeholder="Your Email*" required >
                                             </div>
                                         </div>
                                         <div class="col-12 form-item">
@@ -768,8 +768,8 @@ if (isset($_POST['submit'])) {
                                             </div>
                                         </div>
                                         <div class="col-sm-12 mt-1 text-left">
-                                            <button type="button" class="pill-button" id="submit-btn">Send Message</button>
-                                            <div id="message" class="toast text-white shadow-none border-0" role="alert" aria-live="assertive" aria-atomic="true" data-delay="4000">
+                                            <button type="button" class="pill-button" id="submit-btn" onclick="sendEmail()">Send Message</button>
+                                            <div id="message" class="toast text-white shadow-none border-0" role="alert" aria-live="assertive" aria-atomic="true" data-delay="4000" >
                                                 <div class="toast-body d-inline-block"></div>
                                                 <button type="button" class="pr-3 close" data-dismiss="toast" aria-label="Close">
                                                     <span aria-hidden="true" class="lni-close size-xs text-white"></span>
@@ -801,7 +801,7 @@ if (isset($_POST['submit'])) {
                             <li class="list-inline-item"><a class="text-white" href="#"><i class="lni-github-original text-dark mr-2"></i></a></li>
                             <li class="list-inline-item"><a class="text-white" href="#"><i class="lni-linkedin-original text-dark mr-2"></i></a></li>
                         </ul>
-                        <p class="pl-3 text-dark">Copyright © 2020. This Site has been designed by <a class="base-color" href="index.html">Nirav Lathiya</a></p>
+                        <p class="pl-3 text-dark">Copyright © 2020. This Site  has been designed by <a class="base-color" href="index.html">Nirav Lathiya</a></p>
                     </div>
                 </div>
             </div>
@@ -887,7 +887,5 @@ if (isset($_POST['submit'])) {
 			}
 		};
 	</script>
-</body>
-
-
+    </body>
 </html>
